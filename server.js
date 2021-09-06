@@ -17,18 +17,33 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 app.use('/api',userRouter);
 
+const connectDB = async () => {
 
-mongoose.connect(
-    process.env.DB_CONNECTION,
-    {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        //useCreateIndex: true
-    },
-    ()=>{
-        console.log("Database Connected Successfully!!!");
+    try{
+        
+        await mongoose.connect(
+            process.env.DB_CONNECTION,
+            {
+                useNewUrlParser: true,
+                useUnifiedTopology: true,
+                //useCreateIndex: true
+            },
+            ()=>{
+                console.log("Database Connected Successfully!!!");
+            }
+        )
+
     }
-)
+
+    catch(error)
+    {
+        console.log("Faild to connect to MongoDB ", error);
+    }
+
+}
+
+connectDB();
+
 
 app.use(express.static('public'))
 
@@ -36,7 +51,6 @@ app.get(
     "/",
     (req,res)=>{
         res.sendFile(__dirname + "/public/index.html");
-        //res.send("|Home route working perfectly")
     }
 );
 
