@@ -1,0 +1,351 @@
+
+.social-media{
+    margin:auto;
+    float: right;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accesbar{
+    background-color: #ebebeb;
+}
+p{font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;}
+h1,h2,h3,h4{
+    font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    margin-bottom: 0px !important;
+    margin-left: 10px;
+}
+.topmenu{
+    border-top: 3px solid red;
+    padding-left: 0px ;
+    padding-right: 0px;
+}
+.active1{
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    background-color: white;
+}
+.active2{border-bottom: 3px solid red;}
+.thirdmenu{margin-bottom: 15px;}
+#bttncontent .nav-item{position: relative;  margin: 0 15px 0 15px;}
+#bttncontent .nav-item::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    left: 0;
+    border-bottom: 3px solid red;
+    transition: 0.5s ease-in-out;
+}
+#bttncontent .nav-item:hover::after{
+    width: 100%;
+}
+.falln a:hover{color: red !important;}
+.middlemenu a{
+    float: right;
+}
+.middlemenu a:hover{
+    color: red !important;
+    transition: 0.4s ease-in-out;
+}
+.social-media ul li a{color: #ebebeb;}
+.social-media ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: #cecece;
+}
+.social-media ul li:hover{
+    background-color: black;
+}
+.dropdownbtn,.dropdown-content{
+    position: relative;
+}
+.dropdown-content,.dropdown-content1,
+.dropdown-content2,.dropdown-content3{
+    display: none ;
+    padding: 10px;
+    margin-top: 3px;
+    list-style: none;
+    position: absolute;
+}
+.dropdownbtn:not(.visble):hover .dropdown-content{
+    display: inline-block;
+    width: 160px;
+    background-color: white;
+    animation: kin 0.4s;
+    z-index: 1;
+}
+.dropdownbtn1:hover .dropdown-content1{
+    display: inline-flex ;
+    width: 880px;
+    background-color: white;
+    animation: kin 0.4s;
+    z-index: 1;
+}
+.dropdownbtn2:not(.visble):hover .dropdown-content2{
+    display: inline-block;
+    width: 160px;
+    background-color: white;
+    animation: kin 0.4s;
+    z-index: 1;
+}
+.dropdownbtn3:hover .dropdown-content3{
+    display: inline-flex ;
+    width: 800px;
+    background-color: white;
+    animation: kin 0.4s;
+    z-index: 1;
+}
+#menuhed{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+#lognbtn{
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    color: #979492;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #979492;
+    margin: 3px 0 8px;
+}
+#lognbtn:hover{
+    background-color: #ee4d38;
+    color: white;
+    border: none;
+}
+.scll{
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+#headerbtn{
+    background-color: #ee4d38;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 60px;
+}
+#headerbtn2{
+    background-color: #0f0f0f;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 60px;
+}
+#headerbtn3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee4d38;
+    color: #ffffff;
+    width: 150px;
+    height: 45px;
+    border-radius: 60px;
+}
+#headerbtn3:hover{
+    color: #ee4d38;
+    background-color: white;
+    border: 1px solid #ee4d38;
+}
+#headerbtn:hover,#headerbtn2:hover{
+    color: #ee4d38;
+    background-color: white;
+}
+.fdsi{
+    width: 250px;
+}
+.slick-dots li button:before {
+    font-size: 55px !important;
+    color: #d8d8d8 !important;
+}
+.fade1 ul{
+position: relative;
+top: -80px;
+}
+#pills-tab li{
+    position: relative;
+    border-bottom: 1px solid #d2d2d8;
+    padding: 0 10px 0 10px;
+}
+#pills-tab li .active{background-color: transparent;border-bottom: 2px solid red;color: #ee4d38 !important;border-radius: 0;position: relative;}
+#pills-tab li .nav-link:hover{color: #ee4d38 !important;}
+#pills-tab li .nav-link::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 2px solid red;
+    transition: 0.5s ease-in-out;
+}
+#pills-tab li .nav-link:not(.active):hover::after{
+    width: 100%;
+}
+#pills-tabContent .vertical{
+    animation-name: tabt;
+    animation-duration: 0.3s;
+}
+@keyframes kin {
+    0% {transform: translateY(60px);opacity: 0;}
+    100% {transform: translateY(0px); opacity: 1;}
+}
+@keyframes tabt {
+    0% {transform: translateY(300px);opacity: 0;}
+    100% {transform: translateY(0px); opacity: 1;}
+}
+
+@media only screen and (max-width: 1000px)  {
+    .middlemenu a{
+        float: none;
+        text-align: center;
+    }
+    #menuhed{
+        position: static;
+        z-index: 1;
+        width: 100%;
+        background-color: f0f0f0;
+    }
+    .middlemenu ul{
+        justify-content: center !important;
+
+    }
+    .headerlogo{justify-content: center;
+    }
+    .social-media{
+        float: none;
+    }
+    .navigation{
+        display: flex !important;
+        cursor: pointer;
+    }
+    .active2{
+        border: none;
+        background-color: #f1f1f1;
+    }
+    #bttncontent{
+        visibility: collapse;
+        opacity: 0;
+        height: 0;
+        display: block;
+        transition: all 0.3s ease-in;
+    }
+    #topcontent{
+        visibility: collapse;
+        text-align: center;
+        opacity: 0;
+        height: 0;
+        display: block;
+        transition: all 0.3s ease-in;
+    }
+    #topcontent.viewscene{
+   visibility: visible;
+    opacity: 1;
+    height: 180px;
+    transition: all 0.3s ease-in;
+}
+#bttncontent.view2{
+    visibility: visible;
+     opacity: 1;
+     height: 250px;
+     width: 100%;
+     margin-right: 0px !important;
+     transition: all 0.3s ease-in;
+ }
+ .dropdown-content,.dropdown-content1,
+ .dropdown-content2,.dropdown-content3{
+    display: none ;
+    box-shadow: 0 0 8px #e6e6e6;
+    padding: 10px;
+    background-color: white;
+    list-style: none;
+    position: static;
+    z-index: 1;
+}
+ .dropdownbtn:not(.visble):hover .dropdown-content{
+    display: none ;
+    width: 100%;
+}
+.dropdownbtn1:not(.visble):hover .dropdown-content1{
+    display: none ;
+    width: 100%;
+}
+.dropdownbtn2:not(.visble):hover .dropdown-content2{
+    display: none ;
+    width: 100%;
+}
+.dropdownbtn3:not(.visble):hover .dropdown-content3{
+    display: none ;
+    width: 100%;
+}
+
+#pand{width: 50px;display: flex; justify-content: center;}
+#pand1{width: 50px;display: flex; justify-content: center;}
+#pand2{width: 50px;display: flex; justify-content: center;}
+#pand3{width: 50px;display: flex; justify-content: center;}
+#pand4{width: 50px;display: flex; justify-content: center;}
+.panarrow{
+    position: relative;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-color: #979492;
+    transform: rotate(135deg);
+    border-left: 0;
+    border-bottom: 0;
+    z-index: 1;
+}
+#sub1pan,#sub2pan,#sub3pan,
+#subpan,#subpan1,#subpan2,
+#subpan3,#subpan4{width: 50px;display: flex; justify-content: center;}
+
+
+.thirdmenu ul li{position: relative;}
+.thirdmenu ul li::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    left: 0;
+    border-bottom: none;
+    transition: 0.5s ease-in-out;
+}
+.subdrop,.subdrop1,.subdrop2,
+.subdrop3,.subdrop4,.sub1drop,
+.sub2drop,.sub3drop{
+    display: none;
+}
+
+.subdrop.showv{display: block;}
+.subdrop1.showv1{display: block;}
+.subdrop2.showv2{display: block;}
+.subdrop3.showv3{display: block;}
+.subdrop4.showv4{display: block;}
+.sub1drop.showv5{display: block;}
+.sub2drop.showv6{display: block;}
+.sub3drop.showv7{display: block;}
+
+
+.nav-item .nav-link:hover{
+    color: red !important;
+    transition: 0.4s ease-in-out;
+}
+    .on{display: flex !important;color: red;}
+    .off{display: none;}
+    .panbtn,.hideall{display: block !important;}
+    .dropdownbtn:hover,.dropdown-content.visble{display: block !important;}
+    .dropdownbtn1:hover,.dropdown-content1.visble1{display: block !important;}
+    .dropdownbtn2:hover,.dropdown-content2.visble2{display: block !important;}
+    .dropdownbtn3:hover,.dropdown-content3.visble3{display: block !important;}
+    #topbaropn{opacity: 0;visibility: collapse; height: 0; transition: all 0.2s ease-out;}
+    #topbaropn.show { opacity: 1;visibility: visible;height: auto;visibility: visible;transition: all 0.5s ease-out;}
+}

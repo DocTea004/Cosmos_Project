@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--main body-->
+    <div class="">
+        <!--First Menu-->
+        <div id="menuhed">
+
+         <div id="firstmenu" class="accesbar">
+           
+    <div id="topbaropn" class="container topmenu">
+        <div class="social-media col-lg">
+            <ul class="nav">
+           <li class="nav-item"><a  href=""><i class="fab fa-twitter fa-xs"></i></a></li>
+           <li class="nav-item"><a  href=""><i class="fab fa-facebook fa-xs"></i></a></li>
+           <li class="nav-item"><a  href=""><i class="fab fa-youtube fa-xs"></i></a></li>
+           <li class="nav-item"><a  href=""><i class="fab fa-instagram fa-xs"></i></a></li>
+           <li class="nav-item"><a  href=""><i class="fab fa-google-plus-g fa-xs"></i></a></li>
+             </ul>
+    </div>
+    <div class="headermen col-lg">
+        
+        <div class="navigation justify-content-center d-none my-3">
+            <img src="./menu.svg" id="imgnavopen" onclick="uppermenu()" alt="">
+            <span id="imgnavclse" onclick="uppermenu()" class="d-none"><i class="fas fa-times fa-lg"></i></span>
+        </div>
+        <ul id="topcontent" class="nav">     
+            <li class="nav-item active1">
+                <a class="nav-link text-dark" href="">About Bank</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="">Careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="">Credit Cards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="">Services</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div class="hideall text-center d-none">
+            <span onclick="showtopbar()"><i class="fas fa-chevron-up fa-lg"></i></span>
+     </div>
+        </div>
+
+<!--Second Menu-->
+<div class="container mt-4">
+    <div class="row">
+    <div class="headerlogo d-flex align-items-center col-lg-5">
+       <a href=""><img src="./Sources/logo/logo-1-2.png" alt=""></a>
+    </div>
+    <div class="middlemenu align-self-center col-lg">
+        <a class="nav-link text-dark" href=""><i class="fas fa-search"></i> Search</a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a class="nav-link text-dark" href=""><i class="fas fa-comments"></i> Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href=""><i class="fas fa-map-marker-alt"></i> Location</a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="./signup.html"><i class="far fa-user"></i> Sign In</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+<!--Third Menu-->
+<div class="container mt-4">
+    <div class="thirdmenu">
+        <div class="navigation justify-content-center d-none my-3">
+            <img src="./menu.svg" id="imgnavopen1" onclick="lowermenu()" alt="">
+            <span id="imgnavclse1" onclick="lowermenu()" class="d-none"><i class="fas fa-times fa-lg"></i></span>
+        </div>
+        <nav>
+            <ul id="bttncontent" class="nav">
+                <li class="nav-item dropdownbtn">
+                    <a href="#hi" class="nav-link text-dark d-flex justify-content-between">Home <span id="pand"><div class="panarrow">&nbsp;</div></span></a>
+                    <ul id="drop1" class="dropdown-content">
+                        <li class="falln"><a href="" class="nav-link text-dark">Home Default</a></li>
+                        <li class="falln"><a href="" class="nav-link text-dark">Home Boxed</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="" class="nav-link text-dark">Credit Cards</a></li>
+                <li class="nav-item dropdownbtn2">
+                    <a href="#hi" class="nav-link text-dark d-flex justify-content-between">Features<span id="pand2"><div class="panarrow">&nbsp;</div></span></a>
+                    <ul id="drop3" class="dropdown-content2">
+                        <li class="falln"><a href="" class="nav-link text-dark">About Bank</a></li>
+                        <li class="falln"><a href="" class="nav-link text-dark">Careers</a></li>
+                        <li class="falln"><a href="" class="nav-link text-dark">Services</a></li>
+                        <li class="falln"><a href="" class="nav-link text-dark">Shop</a></li>
+                        <li class="falln"><a href="" class="nav-link text-dark">Contact</a></li>
+                        <li class="falln"><a href="" class="nav-link text-dark">Website Disclaimer</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdownbtn1">
+                    <a href="" class="nav-link text-dark d-flex justify-content-between">ShortCodes<span id="pand1"><div class="panarrow">&nbsp;</div></span></a>
+                    <ul id="drop2" class="dropdown-content1">
+                        <ul class="col-8 card-body" style="list-style: none;">
+                            <li class="falln">
+                                <a href="" class="nav-link text-dark d-flex justify-content-between">1 <span id="sub1pan"><div class="panarrow">&nbsp;</div></span></a>
+                                <ul id="sub1drop" class="sub1drop" style="list-style: none; padding-left: 0px;">
+                                <li class="falln"><a href="" class="nav-link text-dark">Blog Shortcode</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Buttons & Icons</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Clients</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Counters & Progress Bars</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Custom HTML, CSS, JS</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Dividers</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="col-8 card-body" style="list-style: none;">
+                            <li class="falln">
+                                <a href="" class="nav-link text-dark d-flex justify-content-between">2<span id="sub2pan"><div class="panarrow">&nbsp;</div></span></a>
+                                <ul id="sub2drop" class="sub2drop" style="list-style: none; padding-left: 0px;">
+                                <li class="falln"><a href="" class="nav-link text-dark">Embedded</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Featured Blocks</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Gallery</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Google Maps</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Icon Boxes</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Icon Lists</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Images</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="col-8 card-body" style="list-style: none;">
+                            <li class="falln">
+                                <a href="" class="nav-link text-dark d-flex justify-content-between">3<span id="sub3pan"><div class="panarrow">&nbsp;</div></span></a>
+                                <ul id="sub3drop" class="sub3drop" style="list-style: none; padding-left: 0px;">
+                                <li class="falln"><a href="" class="nav-link text-dark">Notice Boxes</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Portfolio Shortcode</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Posts or Projects Slider</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Pricing Tables</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Profiles</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Quotes</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Sidebars</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                        <ul class="col-8 card-body" style="list-style: none;">
+                            <li class="falln">
+                                <a href="" class="nav-link text-dark d-flex justify-content-between">4<span id="sub4pan"><div class="panarrow">&nbsp;</div></span></a>
+                                <ul id="sub4drop" class="sub4drop" style="list-style: none;padding-left: 0px;">
+                                <li class="falln"><a href="" class="nav-link text-dark">Sliders</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Social Sharing</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Special Headings</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Tables</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Tabs & Tours</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Toggles & Accordions</a></li>
+                                </ul>
+                            </li>   
+                        </ul>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item dropdownbtn3">
+                    <a href="" class="nav-link text-dark d-flex justify-content-between">Post Types<span id="pand3"><div class="panarrow">&nbsp;</div></span></a>
+                    <ul id="drop4" class="dropdown-content3">
+                        <ul class="col-8 card-body" style="list-style: none;">
+                            <li class="falln">
+                                <a href="" class="nav-link text-dark d-flex justify-content-between">Blog <span id="subpan"><div class="panarrow">&nbsp;</div></span></a>
+                                <ul id="subdrop1" class="subdrop" style="list-style: none;padding-left: 0px;">
+                                <li class="falln"><a href="" class="nav-link text-dark">Standard Blog</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Masonry Blog</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">Timeline Blog</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="col-8 card-body" style="list-style: none;">
+                            <li class="falln">
+                                <a href="" class="nav-link text-dark d-flex justify-content-between">Project Grid<span id="subpan1"><div class="panarrow">&nbsp;</div></span></a>
+                                <ul id="subdrop2" class="subdrop1" style="list-style: none;padding-left: 0px;">
+                                <li class="falln"><a href="" class="nav-link text-dark">Large Gap</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">No Gap</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">1 Pixel Gap</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="col-8 card-body" style="list-style: none;">
+                            <li class="falln">
+                                <a href="" class="nav-link text-dark d-flex justify-content-between">Mansonry Puzzle<span id="subpan2"><div class="panarrow">&nbsp;</div></span></a>
+                                <ul id="subdrop3" class="subdrop2" style="list-style: none;padding-left: 0px;">
+                                <li class="falln"><a href="" class="nav-link text-dark">Large Gap</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">No Gap</a></li>
+                                <li class="falln"><a href="" class="nav-link text-dark">1 Pixel Gap</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+               
+                <ul class="col-8 card-body" style="list-style: none;">
+                    <li class="falln">
+                        <a href="" class="nav-link text-dark d-flex justify-content-between">Profiles<span id="subpan3"><div class="panarrow">&nbsp;</div></span></a>
+                        <ul id="subdrop4" class="subdrop3" style="list-style: none;padding-left: 0px;">
+                        <li class="falln"><a href="" class="nav-link text-dark">Horizontal</a></li>
+                        <li class="falln"><a href="" class="nav-link text-dark">Vertical</a></li>
+                        <li class="falln"><a href="" class="nav-link text-dark">Open Profile</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </ul>
+                </li>
+                <li class="nav-item"><a href="" class="nav-link text-dark">News</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</div>
+<!--Your Code Goes here-->
+<div class="fade1" style="background-color: #F7F7F7; margin: 180px 0 0;">
+    <div class="sliderimg"  style="background: url('./Sources/Theme/1.jpg'); height: 600px;width: 100%; background-repeat: no-repeat;background-position: center;">
+        <div class="container">
+            <div class="justify-content-center" style="display: flex;flex-direction: column; width: 500px; height: 600px;">
+                <h2 style="margin-left: 0;padding-bottom: 30px; font-size: 45px;font-family: Arial; color: white;">Connecting all your banking needs</h2>
+                <p style="font-size: 30px;font-family: Arial;padding-bottom: 15px; color: white;">Making it Easy for You</p>
+                <button id="headerbtn" class="btn" type="button">Find out more</button>
+             </div>
+        </div>
+    </div>
+    <div class="sliderimg" style="background: url('./Sources/Theme/2.jpg'); height: 600px;background-repeat: no-repeat;background-position: center;">
+        <div class="container">
+            <div class="justify-content-center" style="display: flex;flex-direction: column; width: 500px; height: 600px;">
+             <h2 style="margin-left: 0;padding-bottom: 30px; font-size: 45px;font-family: Arial; color: white;">Gives Back To Your Community</h2>
+             <p style="font-size: 30px;font-family: Arial;padding-bottom: 15px; color: white;">Making it Easy for You</p>
+             <button id="headerbtn" class="btn" type="button">Find out more</button>
+            </div>
+         </div>
+    </div>
+    <div class="sliderimg" style="background: url('./Sources/Theme/3.jpg'); height: 600px;background-repeat: no-repeat;background-position: center;">
+        <div class="container">
+            <div class="justify-content-center" style="display: flex;flex-direction: column; width: 500px; height: 600px;">
+             <h2 style="margin-left: 0;padding-bottom: 30px; font-size: 45px;font-family: Arial; color: white;">Connecting all your banking needs</h2>
+             <p style="font-size: 30px;font-family: Arial;padding-bottom: 15px; color: white;">Making it Easy for You</p>
+             <button id="headerbtn2" class="btn" type="button">Find out more</button>
+         </div>
+         </div>
+    </div>
+</div>
+
+<div style="background-color: #F7F7F7;">
+<div class="container">
+    <div class="d-flex"><p style="color: #a3a3a3;font-weight: bold;width: 300px; font-size: 18px;">Partners:</p>
+        <div class="partners" style="width: 80%;">
+            <div><img src="./Sources/partners/4.png" alt=""></div>
+            <div><img src="./Sources/partners/2.png" alt=""></div>
+            <div><img src="./Sources/partners/3.png" alt=""></div>
+            <div><img src="./Sources/partners/4 (1).png" alt=""></div>
+            <div><img src="./Sources/partners/5.png" alt=""></div>
+        </div>
+    </div>
+    <hr class="bg-secondary">
+    <div class="pb-5" style="padding-top: 75px;"><h2 style="font-size: 30px; font-family: Arial, sans-serif;text-align: center;">Presenting products and services that are right for you</h2></div>
+    <div class="row" style="padding-bottom: 75px;">
+        <div class="col-md-6 col-lg-3">
+            <div><img src="./Sources/others/bankmac.png" height="100px" alt=""></div>
+            <h2 style="font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;font-size: 24px; margin: 26px 0 30px  0 !important;">Online Business</h2>
+            <p>Explore the power of simpler and smarter banking. Bank online with over 250 services</p>
+            <li style="list-style: none;" class="falln"><a style="padding: 15px 0 15px 0;width: fit-content;font-weight: bold;" class="nav-link text-dark" href="">Apply online</a></li>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div><img src="./Sources/others/BAG.png" height="100px" alt=""></div>
+            <h2 style="font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;font-size: 24px; margin: 26px 0 30px  0 !important;">Business Plan</h2>
+            <p>From shares to shopping centres and term deposits to toll roads, there’s a huge range of investments to choose</p>
+            <li style="list-style: none;" class="falln"><a style="padding: 15px 0 15px 0;width: fit-content;font-weight: bold;" class="nav-link text-dark" href="">Take the first step</a></li>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div><img src="./Sources/others/balance.png" height="100px" alt=""></div>
+            <h2 style="font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;font-size: 24px; margin: 26px 0 30px  0 !important;">Mobile Bank</h2>
+            <p>Explore the power of simpler and smarter banking. Bank online with over 250 services</p>
+            <li style="list-style: none;" class="falln"><a style="padding: 15px 0 15px 0;width: fit-content;font-weight: bold;" class="nav-link text-dark" href="">Find out more</a></li>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div><img src="./Sources/others/securetransfer.png" height="100px" alt=""></div>
+            <h2 style="font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L', sans-serif;font-size: 24px; margin: 26px 0 30px  0 !important;">Online Deposit</h2>
+            <p>Explore the power of simpler and smarter banking. Bank online with over 250 services</p>
+            <li style="list-style: none;" class="falln"><a style="padding: 15px 0 15px 0;width: fit-content;font-weight: bold;" class="nav-link text-dark" href="">Learn more</a></li>
+        </div>
+    </div>
+</div>
+</div>
+
+<div>
+    <div class="container"style="padding-top: 94px;margin-bottom: 60px;">
+        <h2 style="text-align: center;font-size: 36px; padding-bottom: 60px;">Business Banking</h2>
+        <div class="row">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item col-12 col-lg-auto d-flex justify-content-center" role="presentation">
+              <button class="nav-link active text-dark" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-basics" type="button" role="tab" aria-controls="pills-home" aria-selected="true" style="font-size: 18px;font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L';">Investing Basics</button>
+            </li>
+            <li class="nav-item col-12 col-lg-auto d-flex justify-content-center" role="presentation">
+              <button class="nav-link text-dark" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-credit" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" style="font-size: 18px;font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L';">Find a Credit Card</button>
+            </li>
+            <li class="nav-item col-12 col-lg-auto d-flex justify-content-center" role="presentation">
+              <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-tech" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" style="font-size: 18px;font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L';">Payment Technologies</button>
+            </li>
+            <li class="nav-item col-12 col-lg-auto d-flex justify-content-center" role="presentation">
+                <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-benfits" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" style="font-size: 18px;font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L';">Card Benefits</button>
+              </li>
+              <li class="nav-item col-12 col-lg-auto d-flex justify-content-center" role="presentation">
+                <button class="nav-link text-dark" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-wallet" type="button" role="tab" aria-controls="pills-contact" aria-selected="false" style="font-size: 18px;font-family: 'Roboto', Arial, Helvetica, 'Nimbus Sans L';">Digital Wallets</button>
+              </li>
+          </ul>
+        </div>
+          <div class="tab-content" id="pills-tabContent" style="overflow: hidden;">
+            <div class="tab-pane vertical show active" id="pills-basics" role="tabpanel" aria-labelledby="pills-basics-tab">
+                <div class="row">
+                    <div class="col-lg-6 py-3 d-flex justify-content-center"><img src="./Sources/tabimage/2.jpg" alt=""></div>
+                        <div class="col-lg-4 py-3 d-flex align-content-center" style="flex-direction: column;"><h2 style="margin-bottom: 40px !important;">Nothing is impossible. We can help you achieve your goals!</h2>
+                            <p style="padding-bottom: 20px;">The UK’s largest banking groups are required to comply with ring-fencing requirements from 1 January 2019. Find out more about our approach and what it means for you</p>
+                            <a href="" id="headerbtn3" class="btn" type="button">Learn more</a>
+                        </div>
+                </div>
+            </div>
+            <div class="tab-pane vertical" id="pills-credit" role="tabpanel" aria-labelledby="pills-credit-tab">
+                <div class="row">
+                    <div class="col-lg-6 py-3 d-flex justify-content-center"><img src="./Sources/tabimage/1.jpg" alt=""></div>
+                        <div class="col-lg-4 py-3 d-flex align-content-center" style="flex-direction: column;"><h2 style="margin-bottom: 40px !important;">Find the card that’s right for you. Explore the benefits.</h2>
+                            <p style="padding-bottom: 20px;">Get the financial freedom you deserve. Credit cards offer exceptional benefits, rewards, services and spending power that can help make your financial and personal dreams come true.</p>
+                            <a href="" id="headerbtn3" class="btn" type="button">Learn more</a>
+                        </div>
+                </div>
+            </div>
+            <div class="tab-pane vertical" id="pills-tech" role="tabpanel" aria-labelledby="pills-tech-tab">
+                <div class="row">
+                    <div class="col-lg-6 py-3 d-flex justify-content-center"><img src="./Sources/tabimage/3.jpg" alt=""></div>
+                        <div class="col-lg-4 py-3 d-flex align-content-center" style="flex-direction: column;"><h2 style="margin-bottom: 40px !important;">Transforming the way you pay. Explore new ways to pay</h2>
+                            <p style="padding-bottom: 20px;">We offer an array of products that make it possible to pay anywhere, on any device. We’re bringing solutions to life to change the way you pay – through our innovative digital wallet service.</p>
+                            <a href="" id="headerbtn3" class="btn" type="button">Learn more</a>
+                        </div>
+                </div>
+            </div>
+            <div class="tab-pane vertical" id="pills-benfits" role="tabpanel" aria-labelledby="pills-benfits-tab">
+                <div class="row">
+                    <div class="col-lg-6 py-3 d-flex justify-content-center"><img src="./Sources/tabimage/4.jpg" alt=""></div>
+                        <div class="col-lg-4 py-3 d-flex align-content-center" style="flex-direction: column;"><h2 style="margin-bottom: 40px !important;">Debit and Credit Card Protection Tips to Prevent Financial Fraud</h2>
+                            <p style="padding-bottom: 20px;">Escape from the daily routine and relax at a spa, go on a thrill-seeking adventure, or take in a round of golf with pro instruction. Access restaurant reviews and make dining reservations online.</p>
+                            <a href="" id="headerbtn3" class="btn" type="button">Learn more</a>
+                        </div>
+                </div>
+            </div>
+            <div class="tab-pane vertical" id="pills-wallet" role="tabpanel" aria-labelledby="pills-wallet-tab">
+                <div class="row">
+                    <div class="col-lg-6 py-3 d-flex justify-content-center"><img src="./Sources/tabimage/5.jpg" alt=""></div>
+                        <div class="col-lg-4 py-3 d-flex align-content-center" style="flex-direction: column;"><h2 style="margin-bottom: 40px !important;">Privacy, Innovation and Security in the Digital Payments World</h2>
+                            <p style="padding-bottom: 20px;">Easy – Load credit, debit, reloadable prepaid or small business cards from participating Alister Bank issuers. Any of your cards can be used across hundreds of thousands of supported merchants.</p>
+                            <a href="" id="headerbtn3" class="btn" type="button">Learn more</a>
+                        </div>
+                </div>
+            </div>
+          </div>
+    </div>
+</div>
+
+<div class="sliderimg"  style="background: url('./Sources/others/3-1.jpg'); height: 580px;width: 100%; background-repeat: no-repeat;">
+    <div class="container">
+        <div class="justify-content-center" style="display: flex;flex-direction: column;width: 500px;  height: 600px;">
+            <p style="color: #949494;">ALISTER BANK MOBILE APP</p>
+            <div class="col-10"><h2 style="margin-left: 0;padding-bottom: 30px;width: 100%; font-size: 36px;font-family: Arial; color: #2b2b2b;">Stay connected, enjoy peace of mind</h2></div>
+            <div class="col-10"><p style="font-family: Arial;width: 100%; padding-bottom: 15px; color: #949494;">Download the Alister Bank app and simplify your banking. Discover quick, simple and convenient way to take command of your bank account, on your mobile phone.</p></div>
+            <div><a style="text-decoration: none; padding-right: 20px;" href=""><img src="./Sources/others/appstore.png" alt=""></a><a style="text-decoration: none;" href=""><img src="./Sources/others/google-play.png" alt=""></a></div>
+         </div>
+    </div>
+</div>
+<div style="background-color: #F7F7F7;">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6" style="background: url('./Sources/others/4.jpg'); height: 650px;background-position: center;background-repeat: no-repeat;"></div>
+        <div class="col-md-6 justify-content-center align-content-center" style="background-color: #81A8CA;padding: 10% 5% 10% 5%; display: flex;flex-direction: column;">
+        <p style="color: #333333;padding-bottom: 20px;">ALISTER BANK MOBILE APP</p>
+            <h2 style="margin-left: 0;padding-bottom: 30px;font-size: 45px;font-family: Arial; color: white;">Making internet a brand new experience</h2>
+            <p style="font-family: Arial; padding-bottom: 15px; color: white;">Online banking can save you a lot of time and effort, you can undertake most transactions from the comforts of your home. However, it is crucial to use internet banking safely</p>
+            <a href="" class="btn btn-outline-light" style="width: 150px;border-radius: 50px;" type="button">Learn more</a>    
+        </div>
+    </div>
+</div>
+
+<div style="padding: 120px 0 80px;">
+    <div class="container">
+        <h2 style="text-align: center; padding-bottom: 50px;">Your news and information</h2>
+        <div class="footerslider" style="width: 100%;">
+            <div class="px-3"><a style="text-decoration: none; color: #2b2b2b;font-size: 19px;" href=""><img src="./Sources/footerslide/2.jpg" height="100%" width="100%" alt=""><p style="width: 100%; padding-top: 30px;">When NOT Using Credit Cards Can Hurt You</p></a></div>
+            <div class="px-3"><a style="text-decoration: none; color: #2b2b2b;font-size: 19px;" href=""><img src="./Sources/footerslide/3.jpg" height="100%" width="100%" alt=""><p style="width: 100%; padding-top: 30px;">Keep Your Children Safe from Financial Fraud</p></a></div>
+            <div class="px-3"><a style="text-decoration: none; color: #2b2b2b;font-size: 19px;" href=""><img src="./Sources/footerslide/1.jpg" height="100%" width="100%" alt=""><p style="width: 100%; padding-top: 30px;">Relief Fund In Place At Alister Bank: How You Can Help</p></a></div>
+            <div class="px-3"><a style="text-decoration: none; color: #2b2b2b;font-size: 19px;" href=""><img src="./Sources/footerslide/4.jpg" height="100%" width="100%" alt=""><p style="width: 100%; padding-top: 30px;">You’re Making More Money. Here’s How to Save</p></a></div>
+            <div class="px-3"><a style="text-decoration: none; color: #2b2b2b;font-size: 19px;" href=""><img src="./Sources/footerslide/5(1).jpg" height="100%" width="100%" alt=""><p style="width: 100%; padding-top: 30px;">Help and guidance: Personal Financial Advice Service</p></a></div>
+        </div>
+    </div>
+</div>
+</div>
+<div style="padding: 80px 0 80px 0;">
+    <div class="container">
+<div class="row">
+    <div class="col-md-6 col-lg-3">
+        <h2 style="font-weight: 300;">Personal Banking</h2>
+        <ul style="list-style: none; padding-left: 0;">
+        <li><a class="nav-link text-dark" href="">Personal Checking</a></li>
+        <li><a class="nav-link text-dark" href="">Personal Savings</a></li>
+        <li><a class="nav-link text-dark" href="">Personal Mortgages</a></li>
+        <li><a class="nav-link text-dark" href="">Personal Loans</a></li>
+        <li><a class="nav-link text-dark" href="">Personal Banking</a></li>
+    </ul>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <h2 style="font-weight: 300;">Business Banking</h2>
+        <ul style="list-style: none; padding-left: 0;">
+        <li><a class="nav-link text-dark" href="">Business Checking</a></li>
+        <li><a class="nav-link text-dark" href="">Business Loans</a></li>
+        <li><a class="nav-link text-dark" href="">Small Business Administration</a></li>
+        <li><a class="nav-link text-dark" href="">Banking Additional Services</a></li>
+        <li><a class="nav-link text-dark" href="">E-Banking</a></li>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <h2 style="font-weight: 300;">Quick Links</h2>
+        <ul style="list-style: none; padding-left: 0;">
+        <li><a class="nav-link text-dark" href="">About Alister Bank</a></li>
+        <li><a class="nav-link text-dark" href="">Alister Bank Services</a></li>
+        <li><a class="nav-link text-dark" href="">Credit Cards</a></li>
+        <li><a class="nav-link text-dark" href="">Alister Bank Careers</a></li>
+    </ul>
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <h2 style="font-weight: 300;">News & Blog</h2>
+        <ul style="list-style: none; padding-left: 0;">
+        <li><a class="nav-link text-dark" href="">Alister Bank Recent News</a></li>
+        <li><a class="nav-link text-dark" href="">Alister Bank News</a></li>
+        <li><a class="nav-link text-dark" href="">Alister Bank Blog</a></li>
+        <li><a class="nav-link text-dark" href="">Alister Bank Careers</a></li>
+        <li><a class="nav-link text-dark" href="">Alister Bank FAQs</a></li>
+    </ul>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="footer bg-dark">
+    <div class="container">
+        <div class="row justify-content-center" style="padding: 90px 0 30px;">
+            <ul class="col-md-6 col-lg-3">
+                <p><img src="./Sources/logo/logofooter.png" alt=""></p>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">About Alister Bank</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Communities</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Alister Bank Group</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Careers</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Website Disclaimer</a></li>
+            </ul>
+            <ul class="col-md-6 col-lg-3">
+                <h2 style="color: white;">Banking with Us</h2>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Internet Banking</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Mobile Banking</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Alister Bank Security</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Rates Charges</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Glossary</a></li>
+            </ul>
+            <ul class="col-md-6 col-lg-3">
+                <h2 style="color: white;">Customer Service</h2>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">About us</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Jobs</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Press and media</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Contact us</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Legal</a></li>
+            </ul>
+            <ul class="col-md-6 col-lg-3">
+                <h2 style="color: white;">Socials</h2>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Twitter</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Instagram</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Facebook</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">YouTube</a></li>
+                <li class="nav-item"><a class="nav-link" style="color:#949494" href="">Pinterest</a></li>
+            </ul>
+            <hr class="bg-secondary">
+        </div>
+    </div>
+</div>
+</div>
+  
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/myjs.js"></script>
+    <script src="./js/jquery1.11.0.js"></script>
+    <script src="./js/jquerymigrate.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".partners").slick({
+                dots: false,
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [
+        {
+          breakpoint: 977,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: "40px",
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 765,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: "40px",
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 513,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: "40px",
+            slidesToShow: 1
+          }
+        }
+      ]
+            });
+
+            $('.footerslider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay: true,
+            dots:true,
+            autoplaySpeed: 3000,
+            responsive: [
+        {
+          breakpoint: 999,
+          settings: {
+            arrows: false,
+            slidesToShow: 3,
+            slidesToScroll: 4,
+          }
+        },
+        {
+          breakpoint: 765,
+          settings: {
+            arrows: false,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          }
+        }
+    ]
+                });
+           
+            $('.fade1').slick({
+            dots: true,
+            autoplay: true,
+            arrows:false,
+            autoplaySpeed: 10000,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+           });
+
+           
+       });
+       
+   </script> 
+</body>
+</html>
