@@ -22,21 +22,16 @@ userRouter.post(
     async(req,res)=>{
 
        try{
-         const user = new User({
+        const user = new User({
 
             username: req.body.username,
-            password: req.body.password
+           password: req.body.password
          });
 
-        const createdUser = await user.save();
+        user.save();
 
-        console.log(req.body);
-
-      
-        res.send({
-            username: createdUser.username,
-            password:createdUser.password
-        })
+        res.redirect('/');
+         
         
        }
 
